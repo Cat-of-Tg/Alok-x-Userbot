@@ -47,10 +47,10 @@ LOG_GP = Var.PRIVATE_GROUP_ID
 MESAG = (
     str(CUSTOM_PMPERMIT)
     if CUSTOM_PMPERMIT
-    else "`LuciferBot PM security! Please wait for me to approve you. 😊"
+    else "`λlσκ χ PM sεcυrιτγ! Plεαsε ωαιτ fσr mε τσ αρρrσνε γσυ.😅"
 )
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Lucifer User"
-USER_BOT_WARN_ZERO = "`I had warned you not to spam. Now you have been blocked and reported until further notice.`\n\n**GoodBye!** "
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Alok X User"
+USER_BOT_WARN_ZERO = "`ɪ ʜᴀᴅ ᴡᴀʀɴᴇᴅ ʏᴏᴜ ɴᴏᴛ ᴛᴏ ᴤᴘᴀᴍ. ɴᴏᴡ ʏᴏᴜ ʜᴀᴠᴇ ʙᴇᴇɴ ʙʟᴏᴄᴋᴇᴅ ᴀɴᴅ ʀᴇᴘᴏʀᴛᴇᴅ ᴜɴᴛɪʟ ᴈᴜʀᴛʜᴇʀ ɴᴏᴛɪᴄᴇ.`\n\n**GoodBye!** "
 
 if Var.LOAD_MYBOT == "True":
     USER_BOT_NO_WARN = (
@@ -65,7 +65,7 @@ elif Var.LOAD_MYBOT == "False":
     USER_BOT_NO_WARN = (
         "**PM Security of [{}](tg://user?id={})**\n\n"
         "{}\n"
-        "\nPlease choose why you are here, from the available options\n".format(
+        "\nᴘʟᴇᴀsᴇ ᴄʜᴏᴏsᴇ ᴡʜʏ ʏᴏᴜ ᴀʀᴇ ʜᴇʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏᴘᴛɪᴏɴs.\n".format(
             DEFAULTUSER, myid, MESAG
         )
     )
@@ -96,11 +96,11 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                 text=f"**LuciferBot Stats For [{DEFAULTUSER}](tg://user?id={myid})**\n\n__Bot is functioning normally, master!__\n\n(c) @Lucifer_support_group",
                 buttons=[
                     [custom.Button.inline("Stats", data="statcheck")],
-                    [Button.url("Repo", "https://github.com/kaal0408/Lucifer")],
+                    [Button.url("ʀᴇᴘᴏ", "https://github.com/cat-of-tg/alok-x-userbot")],
                     [
                         Button.url(
                             "Deploy Now!",
-                            "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fkaal0408%2FLucifer&template=https%3A%2F%2Fgithub.com%2Fkaal0408%2FLucifer",
+                            "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2cat-of-tg%2FALok-x-userbot&template=https%3A%2F%2Fgithub.com%2Fcat-of-tg%2FLucifer",
                         )
                     ],
                 ],
@@ -125,33 +125,29 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                 text=f"LuciferBot - Telegram Userbot.",
                 buttons=[
                     [
-                        Button.url("Repo", "https://github.com/kaal0408/Lucifer"),
+                        Button.url("ʀᴇᴘᴏ", "https://github.com/kaal0408/Lucifer"),
                         Button.url(
                             "Deploy",
-                            "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fkaal0408%2FLucifer&template=https%3A%2F%2Fgithub.com%2Fkaal0408%2FLucifer",
+                            "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FCat-of-tg%2Falok-x-userbot&template=https%3A%2F%2Fgithub.com%2cat-of-tg%2alok-x-userbot",
                         ),
                     ],
-                    [Button.url("Support", "https://t.me/Lucifer_support_group")],
+                    [Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/alok_x_support")],
                 ],
             )
         else:
             result = builder.article(
-                "Source Code",
-                text="**Welcome to LuciferBot**\n\n`Click below buttons for more`",
+                "sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ",
+                text="**ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴀʟᴏᴋ x ᴜsᴇʀʙᴏᴛ**\n\n`ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ғᴏʀ ᴍᴏʀᴇ.....`",
                 buttons=[
-                    [custom.Button.url("Creator👨‍🦱", "https://t.me/Murat_30_God")],
+                    
                     [
                         custom.Button.url(
-                            "👨‍💻Source Code‍💻", "https://github.com/kaal0408/Lucifer"
+                            "ʀᴇᴘᴏ", "https://github.com/cat-of-tg/alok-x-userbot"
                         ),
-                        custom.Button.url(
-                            "Deploy 🌀",
-                            "https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fkaal0408%2FLucifer",
-                        ),
-                    ],
+                       
                     [
                         custom.Button.url(
-                            "Updates and Support Group↗️", "https://t.me/Lucifer_support_group"
+                            "sᴜᴘᴘᴏʀᴛ", "https://t.me/alok_x_support"
                         )
                     ],
                 ],
@@ -172,7 +168,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             await event.edit(buttons=buttons)
         else:
             reply_pop_up_alert = (
-                "Please get your own Userbot from @Lucifer_support_group , and don't use mine!"
+                "ᴘʟᴇᴀsᴇ ɢᴇᴛ ʏᴏᴜʀ ᴏᴡɴ ᴜsᴇʀʙᴏᴛ ғʀᴏᴍ @Alok_x_support , ᴀɴᴅ ᴅᴏɴᴛ ᴜsᴇ ᴍɪɴᴇᴇ..!"
             )
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
@@ -183,7 +179,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
         else:
             await event.edit(
-                f"This is the PM Security for {DEFAULTUSER} to keep away spammers and retards.\n\nProtected by [LuciferBot](t.me/Lucifer_support_group)"
+                f" ᴛʜɪs ɪs ᴛʜᴇ ᴘᴍ sᴇᴄᴜʀɪᴛʏ ᴏғ {DEFAULTUSER} ᴛᴏ ᴋᴇᴇᴘ ᴀᴡᴀʏ sᴘᴀᴍᴍᴇʀs ᴀɴᴅ ʀᴇᴛᴀʀᴅs.\n\nProtected by [ᴀʟᴏᴋ x](t.me/alok_x_support)"
             )
 
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"reopen")))
@@ -202,7 +198,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
         else:
             await event.edit(
-                f"Okay, `{DEFAULTUSER}` would get back to you soon!\nTill then please **wait patienly and don't spam here.**"
+                f"ᴠᴏᴏ ᴡᴏᴋᴇʏ, `{DEFAULTUSER}` ᴡᴏᴜʟᴅ ɢᴇᴛ ʙᴀᴄᴋ ᴛᴏ ʏᴏᴜ sᴏᴏɴ ᴠʀᴏ!\nᴛɪʟʟ ᴛʜᴇɴ ** ᴡᴀɪᴛ ᴘᴀᴛɪᴇᴍʟʏ ᴀɴᴅ ᴅᴏɴ'ᴛ sᴘᴀᴍ ʜᴇʀᴇ.**"
             )
             target = await event.client(GetFullUserRequest(event.query.user_id))
             first_name = html.escape(target.user.first_name)
@@ -227,7 +223,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             first_name = html.escape(target.user.first_name)
             if first_name is not None:
                 first_name = first_name.replace("\u2060", "")
-            tosend = f"Hey {DEFAULTUSER}, [{first_name}](tg://user?id={ok}) wants to PM you for **Random Chatting**!"
+            tosend = f"ʜᴏʟᴀ {DEFAULTUSER}, [{first_name}](tg://user?id={ok}) ᴡᴀɴᴛs ᴛᴏ ᴘᴍ ʏᴏᴜ ғᴏʀ **ʀᴀɴᴅᴏᴍ ᴄʜᴀᴛᴛɪɴɢ**!"
             await tgbot.send_message(LOG_GP, tosend)
 
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"plshelpme")))
@@ -237,14 +233,14 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
         else:
             await event.edit(
-                f"Oh!\n{DEFAULTUSER} would be glad to help you out...\nPlease leave your message here **in a single line** and wait till I respond 😊"
+                f"Oh!\n{DEFAULTUSER} ᴡᴏᴜʟᴅ ʙᴇ ɢʟᴀᴅ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴏᴜᴛ...\nᴘʟᴇᴀsᴇ ʟᴇᴀᴠᴇ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ ʜᴇʀᴇ**ɪɴ ᴀ sɪɴɢʟᴇ ʟɪɴᴇ** ᴀɴᴅ ᴡᴀɪᴛ ᴛɪʟʟ ɪ ʀᴇsᴘᴏɴᴅ.."
             )
             target = await event.client(GetFullUserRequest(event.query.user_id))
             first_name = html.escape(target.user.first_name)
             ok = event.query.user_id
             if first_name is not None:
                 first_name = first_name.replace("\u2060", "")
-            tosend = f"Hey {DEFAULTUSER}, [{first_name}](tg://user?id={ok}) wants to PM you for **help**!"
+            tosend = f"Hey {DEFAULTUSER}, [{first_name}](tg://user?id={ok}) ᴡᴀɴᴛs ᴛᴏ ᴘᴍ ʏᴏᴜ ғᴏʀ **ʜᴇʟᴘ**!"
             await tgbot.send_message(LOG_GP, tosend)
 
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"heheboi")))
@@ -254,7 +250,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
         else:
             await event.edit(
-                f"Oh, so you are here to spam 😤\nGoodbye.\nYour message has been read and successfully ignored."
+                f" ᴏʜ, sᴏ ʏᴏᴜ ᴀʀᴇ ʜᴇʀᴇ ᴛᴏ sᴘᴀᴍ \nɢᴏᴏᴅ ʙʏᴇ.\nYour message has been read and successfully ignored."
             )
             await borg(functions.contacts.BlockRequest(event.query.user_id))
             target = await event.client(GetFullUserRequest(event.query.user_id))
@@ -265,7 +261,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             first_name = html.escape(target.user.first_name)
             await tgbot.send_message(
                 LOG_GP,
-                f"[{first_name}](tg://user?id={ok}) tried to **spam** your inbox.\nHenceforth, **blocked**",
+                f"[{first_name}](tg://user?id={ok}) tried to **sᴘᴀᴍ** ʏᴏᴜʀ ɪɴʙᴏx.\n ʜᴇɴᴄᴇ , **ʙʟᴏᴄᴋᴇᴅ**",
             )
 
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"close")))
@@ -372,11 +368,11 @@ def paginate_help(page_number, loaded_plugins, prefix):
         ] + [
             (
                 custom.Button.inline(
-                    "⫷ Previous", data="{}_prev({})".format(prefix, modulo_page)
+                    "⫷ вα¢κ, data="{}_prev({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline("║ Close ║", data="close"),
                 custom.Button.inline(
-                    "Next ⫸", data="{}_next({})".format(prefix, modulo_page)
+                    "иeχт ⫸", data="{}_next({})".format(prefix, modulo_page)
                 ),
             )
         ]
