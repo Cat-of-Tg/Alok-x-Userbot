@@ -1,9 +1,9 @@
-# Lucifer-X
+# ALOK-X
 > Telethon based userbot (•~•)
-<h1 align="center">⚡Lucifer-X⚡</h1>
 
 
-[![Lucifer-X logo](https://telegra.ph/file/78bebb896c10ef6213066.jpg)](https://t.me/LuciferXsupport)
+
+[![ALOK-X](https://telegra.ph/file/78bebb896c10ef6213066.jpg)](https://t.me/LuciferXsupport)
 
 <h2 align="center">USERBOT</h2>
 
