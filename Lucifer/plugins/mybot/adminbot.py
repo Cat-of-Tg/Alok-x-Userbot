@@ -11,9 +11,9 @@ from telethon.tl.types import (
 
 # =================== CONSTANT ===================
 PP_TOO_SMOL = "`The image is too small`"
-PP_ERROR = "`Failure while processing the image`"
-NO_ADMIN = "`I am not an admin nub nibba!`"
-NO_PERM = "`I don't have sufficient permissions! This is so sed. Alexa play Tera Tau Aaya`\nIdiot If Im not a admin then how could i play ?"
+PP_ERROR = "`Failure while processing the image🤭`"
+NO_ADMIN = "`I am not an admin vro!`"
+NO_PERM = "`I don't have sufficient permissions! This is so sed. Alexa play sed bgm \nIdiot If Im not a admin then how could i play ?"
 NO_SQL = "`Running on Non-SQL mode!`"
 
 CHAT_PP_CHANGED = "`Chat Picture Changed`"
@@ -78,7 +78,7 @@ async def ban(event):
     try:
         await event.client(EditBannedRequest(event.chat_id, user.id, BANNED_RIGHTS))
     except BadRequestError:
-        await event.reply("No Permission Sar 🤭.")
+        await event.reply("No Permission Sir👀🤭.")
         return
     # Helps ban group join spammers more easily
     try:
@@ -123,7 +123,7 @@ async def nothanos(event):
         await event.client(EditBannedRequest(event.chat_id, user.id, UNBAN_RIGHTS))
         await event.reply("`Unbanned Successfully. Granting another chance.🚶`")
     except BadRequestError:
-        await event.reply("`No Permission 🤭`")
+        await event.reply("`No Permission👀🤭`")
         return
 
 
@@ -172,7 +172,7 @@ async def promote(event):
     # If Telethon spit BadRequestError, assume
     # we don't have Promote permission
     except BadRequestError:
-        await event.reply("No Permission To Promote 🤭")
+        await event.reply("No Permission To Promote👀🤭")
         return
 
 
@@ -194,7 +194,7 @@ async def demote(event):
     creator = chat.creator
 
     if not admin and not creator:
-        await event.reply("I Am Not Admin 🤭")
+        await event.reply("I Am Not Admin👀🤭")
         return
 
     rank = "mememaster"  # dummy rank, lol.
@@ -220,7 +220,7 @@ async def demote(event):
     # If we catch BadRequestError from Telethon
     # Assume we don't have permission to demote
     except BadRequestError:
-        await event.reply("Me No Permission 🤔")
+        await event.reply("Me No Permission👀🤔")
         return
     await event.reply("`Demoted this Guy Successfully!`")
 
@@ -244,7 +244,7 @@ async def pin(event):
 
     # If not admin and not creator, return
     if not admin and not creator:
-        await event.reply("I Need Administration Permission 🤔")
+        await event.reply("I Need Administration Permission👀🤔")
         return
 
     to_pin = event.reply_to_msg_id
