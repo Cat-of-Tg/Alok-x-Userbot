@@ -18,12 +18,12 @@ from Lucifer.LuciferConfig import Var
 CUSTOM_ALIVE = (
     Var.CUSTOM_ALIVE
     if Var.CUSTOM_ALIVE
-    else "**Your LuciferX in working.**"
+    else "**ʏᴏᴜʀ ᴀʟᴏᴋ x ɪɴ ᴡᴏʀᴋɪɴɢ.**"
 )
 ALV_PIC = (
     Var.ALIVE_PIC
     if Var.ALIVE_PIC
-    else "https://telegra.ph/file/73373552e9217e010e853.jpg"
+    else "https://telegra.ph/file/68dfbaf32c36472343ed6.jpg"
 )
 if Config.SUDO_USERS:
     sudo = "Enabled"
@@ -64,20 +64,20 @@ myid = bot.uid
 end = datetime.now()
 (end - start).microseconds / 1000
 uptime = get_readable_time((time.time() - StartTime))
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "LuciferX User❤️"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ᴀʟᴏᴋ x ᴜsᴇʀ❤️"
 
-yes = "[•LuciferX•](https://t.me/LuciferXUpdates)"
+yes = "[•ᴀʟᴏᴋ x•](https://t.me/alok_x_updates)"
 
 edits = f"""
-    \n•L U C I F E R X•\n
+    \n• A L O K X•\n
        \n    {CUSTOM_ALIVE}\
     ╔━━━━━━━━━━━━━━━━━━╕
-    ┣ Owner: {DEFAULTUSER}
-    ┣ Vision- {luciferver}
-    ┣ UpTime - {uptime}
-    ┣ Python - 3.9.7
-    ┣ Telethon - 1.23.0
-    ┣ Updates: {yes}
+    ┣ ᴏᴡɴᴇʀ: {DEFAULTUSER}
+    ┣ ᴠɪsɪᴏɴ- {luciferver}
+    ┣ ᴜᴘ ᴛɪᴍᴇ - {uptime}
+    ┣ ᴘʏᴛʜᴏɴ - 3.9.7
+    ┣ ᴛᴇʟᴇᴛʜᴏɴ- 1.23.0
+    ┣ ᴜᴘᴅᴀᴛᴇs: {yes}
     ╚━━━━━━━━━━━━━━━━━━╛
     """
 @bot.on(admin_cmd(outgoing=True, pattern="alive"))
