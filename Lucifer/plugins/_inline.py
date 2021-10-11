@@ -33,7 +33,7 @@ PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 TELEPIC = (
     PMPERMIT_PIC
     if PMPERMIT_PIC
-    else "https://telegra.ph/file/73373552e9217e010e853.jpg"
+    else "https://telegra.ph/file/68dfbaf32c36472343ed6.jpg"
 )
 PM_WARNS = {}
 PREV_REPLY_MESSAGE = {}
@@ -112,20 +112,20 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                 text=LUCIFERBT,
                 buttons=[
                     [
-                        custom.Button.inline("Request ", data="req"),
-                        custom.Button.inline("Chat 💭", data="chat"),
+                        custom.Button.inline("ʀᴇǫᴜᴇsᴛ ", data="req"),
+                        custom.Button.inline("ᴄʜᴀᴛ ", data="chat"),
                     ],
-                    [custom.Button.inline("To spam 🚫", data="heheboi")],
-                    [custom.Button.inline("What is this ❓", data="pmclick")],
+                    [custom.Button.inline("ᴛᴏ sᴘᴀᴍ ", data="heheboi")],
+                    [custom.Button.inline("ᴡʜᴀᴛ ɪs ᴛʜɪs", data="pmclick")],
                 ],
             )
         elif event.query.user_id == bot.uid and query == "repo":
             result = builder.article(
                 title="Repository",
-                text=f"LuciferBot - Telegram Userbot.",
+                text=f"Alok x- Telegram Userbot.",
                 buttons=[
                     [
-                        Button.url("ʀᴇᴘᴏ", "https://github.com/kaal0408/Lucifer"),
+                        Button.url("ʀᴇᴘᴏ", "https://github.com/cat-of-tg/alok-x-userbot"),
                         Button.url(
                             "Deploy",
                             "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FCat-of-tg%2Falok-x-userbot&template=https%3A%2F%2Fgithub.com%2cat-of-tg%2alok-x-userbot",
