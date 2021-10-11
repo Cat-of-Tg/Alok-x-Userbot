@@ -1,6 +1,6 @@
 {
- "name": "Lucifer - UserBot",
- "description": "An advanced Telethon Userbot, from @Lucifer_support_group",
+ "name": "ALOK X - UserBot",
+ "description": "An advanced Telethon Userbot, from @ALOK_X_SUPPORT",
  "logo": "https://telegra.ph/file/73373552e9217e010e853.jpg",
  "keywords": [
   "telegram",
@@ -11,7 +11,7 @@
  ],
  "repository": "https://github.com/kaal0408/Lucifer/",
  "website": "https://github.com/kaal0408/Lucifer/",
- "success_url": "https://t.me/Lucifer_support_group",
+ "success_url": "https://t.me/ALOK_X_support",
  "stack": "container",
  "env": {
   "ENV": {
@@ -32,7 +32,7 @@
    "value": ""
   },
   "STRING_SESSION": {
-   "description": "Get this value by running Lucifer repl get it from @Lucifer_support_group.",
+   "description": "Get this value by running ALOK X repl get it from @ALOK_X_SUPPORT.",
    "value": ""
   },  
   "CUSTOM_PMPERMIT": {
