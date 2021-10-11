@@ -185,7 +185,7 @@ async def _(event):
         USER_AFK = f"on: {reason}"
         if reason:
             await event.edit(
-                f"`Your status has been set to AFK.`\n**Reason** - {reason}"
+                f"`So you're going sed, be sure to return soon🥺, Your status has been set to AFK .`\n**Reason** - {reason}"
             )
             await asyncio.sleep(5)
             await event.delete()
@@ -237,7 +237,7 @@ async def set_not_afk(event):
     if "afk" not in current_message and "on" in USER_AFK:
         shite = await event.client.send_message(
             event.chat_id,
-            f"`I'm back!\nWas afk for {endtime}`",
+            f"`YAY😊,my master is back !\nWas afk for {endtime}`",
         )
         USER_AFK = {}
         afk_time = None
