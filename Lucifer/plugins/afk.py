@@ -17,7 +17,7 @@
 # Based of AFK by @SpEcHIDe
 # Media Afk, Time, by @xditya
 """
-AFK Plugin for Lucifer
+AFK Plugin for alok x
 Syntax: .afk REASON
 """
 import asyncio
