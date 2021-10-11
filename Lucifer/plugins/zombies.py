@@ -55,7 +55,7 @@ async def rm_deletedacc(show):
 
     con = show.pattern_match.group(1).lower()
     del_u = 0
-    del_status = "`No deleted accounts found, Group is clean`"
+    del_status = "`No deleted accounts found, This is such a clean group 💕`"
 
     if con != "clean":
         await eor(show, "`Searching for ghost/deleted/zombie accounts...`")
@@ -65,7 +65,7 @@ async def rm_deletedacc(show):
                 del_u += 1
                 await sleep(1)
         if del_u > 0:
-            del_status = f"Found **{del_u}** ghost/deleted/zombie account(s) in this group,\
+            del_status = f"Found **{del_u}** ghost/deleted/zombie account(s) in this group 😬,\
             \nclean them by using `.zombies clean`"
         await eor(show, del_status)
         return
@@ -77,7 +77,7 @@ async def rm_deletedacc(show):
 
     # Well
     if not admin and not creator:
-        await eor(show, "`I am not an admin here!`")
+        await eor(show, "`Sorry I am not an admin here!`")
         return
 
     await eor(show, "`Deleting deleted accounts...\nOh I can do that?!?!`")
@@ -91,7 +91,7 @@ async def rm_deletedacc(show):
                     EditBannedRequest(show.chat_id, user.id, BANNED_RIGHTS)
                 )
             except ChatAdminRequiredError:
-                await eor(show, "`I don't have ban rights in this group`")
+                await eor(show, "`Sed I don't have ban rights in this group`")
                 return
             except UserAdminInvalidError:
                 del_u -= 1
@@ -114,6 +114,6 @@ async def rm_deletedacc(show):
         await show.client.send_message(
             Var.PRIVATE_GROUP_ID,
             "#CLEANUP\n"
-            f"Cleaned **{del_u}** deleted account(s) !!\
+            f"Cleaned **{del_u}** deleted account(s) ✌️ !!\
             \nCHAT: {show.chat.title}(`{show.chat_id}`)",
         )
