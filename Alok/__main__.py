@@ -13,7 +13,7 @@ from Lucifer.LuciferConfig import Var
 from Lucifer.utils import load_module,start_mybot, load_pmbot
 from pathlib import Path
 import telethon.utils
-from Lucifer import CMD_HNDLR
+from Alok import CMD_HNDLR
 
 LUCIFER = Var.PRIVATE_GROUP_ID
 BOTNAME = Var.TG_BOT_USER_NAME_BF_HER

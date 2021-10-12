@@ -15,10 +15,10 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 # Incoming message checker.
-from Lucifer.plugins.mybot.sql.users_sql import add_user_to_db
-from Lucifer.plugins.mybot.sql.blacklist_sql import check_is_black_list
+from Alok.plugins.mybot.sql.users_sql import add_user_to_db
+from Alok.plugins.mybot.sql.blacklist_sql import check_is_black_list
 from telethon import events
-from Lucifer.plugins import OWNER_ID
+from Alok.plugins import OWNER_ID
 
 # if incoming
 

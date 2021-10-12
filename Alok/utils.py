@@ -1,11 +1,11 @@
 import sys
 import math
-from Lucifer import bot
+from Alok import bot
 from telethon import events
 from pathlib import Path
-from Lucifer.LuciferConfig import Var, Config
-from Lucifer import LOAD_PLUG
-from Lucifer import CMD_LIST
+from Alok.AlokConfig import Var, Config
+from Alok import LOAD_PLUG
+from Alok import CMD_LIST
 import re
 import logging
 import inspect

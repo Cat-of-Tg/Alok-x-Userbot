@@ -1,5 +1,5 @@
 from sqlalchemy import Column, UnicodeText, LargeBinary, Numeric, String
-from Lucifer.plugins.sql_helper import SESSION, BASE
+from ALok.plugins.sql_helper import SESSION, BASE
 
 
 class Filters(BASE):

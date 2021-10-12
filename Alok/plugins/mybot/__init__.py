@@ -14,10 +14,10 @@
 #    You should have received a copy of the GNU Affero General Public License
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from Lucifer.plugins import OWNER_ID, LUCIFER_NAME
+from Alok.plugins import OWNER_ID, LUCIFER_NAME
 import time
 from datetime import datetime
-from Lucifer.LuciferConfig import Var
+from Alok.LuciferConfig import Var
 
 # start-other disabled
 startotherdis = """

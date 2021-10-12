@@ -1,11 +1,16 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# (c) Shrimadhav U K
+
+""" init SQL """
+
 import os
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, scoped_session
 
-
 # the secret configuration specific things
-from Lucifer.LuciferConfig import Var
+from Alok.AlokConfig import Var
 
 
 def start() -> scoped_session:

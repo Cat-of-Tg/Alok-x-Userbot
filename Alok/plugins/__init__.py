@@ -1,8 +1,8 @@
 from telethon.tl.types import Channel
 
-from Lucifer import *
-from Lucifer import ALIVE_NAME, bot, luciferver
-from Lucifer.LuciferConfig import Config, Var
+from ALok import *
+from ALok import ALIVE_NAME, bot, luciferver
+from Alok.AlokConfig import Config, Var
 
 # stats
 if Var.PRIVATE_GROUP_ID:

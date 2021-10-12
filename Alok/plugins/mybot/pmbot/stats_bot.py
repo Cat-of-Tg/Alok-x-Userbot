@@ -14,10 +14,10 @@
 #    You should have received a copy of the GNU Affero General Public License
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from Lucifer.plugins.mybot.sql.blacklist_sql import all_bl_users
-from Lucifer.plugins.mybot.sql.userbase_sql import full_userbase
+from Alok.plugins.mybot.sql.blacklist_sql import all_bl_users
+from ALok.plugins.mybot.sql.userbase_sql import full_userbase
 from telethon import events
-from Lucifer.plugins import OWNER_ID
+from Alok.plugins import OWNER_ID
 
 
 @tgbot.on(events.NewMessage(pattern="^/stats", from_users=OWNER_ID))

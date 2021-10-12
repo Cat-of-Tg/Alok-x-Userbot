@@ -1,9 +1,9 @@
 # by @StarkGang 😋
 
-from Lucifer.plugins.mybot.sql.users_sql import get_user_id
+from Alok.plugins.mybot.sql.users_sql import get_user_id
 from telethon import events
 from telethon.utils import pack_bot_file_id
-from Lucifer.plugins import OWNER_ID
+from Alok.plugins import OWNER_ID
 
 # outgoing, aka, replying to mssg
 

@@ -1,5 +1,5 @@
 from sqlalchemy import Column, UnicodeText, LargeBinary, Numeric
-from Lucifer.plugins.sql_helper import SESSION, BASE
+from ALok.plugins.sql_helper import SESSION, BASE
 
 
 class Snips(BASE):
